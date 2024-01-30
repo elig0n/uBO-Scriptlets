@@ -409,7 +409,7 @@ function setInnerHTML(
          text = '',
 	 append = 0, 
 ) {
-    if ( selector === '' || text === '' ) { return; }
+    if ( selector === '' ) { return; }
     const innerHTML = ( ) => {
           const nodes = document.querySelectorAll(selector);
           try {
